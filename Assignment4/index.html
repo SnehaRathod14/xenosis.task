@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple E-commerce Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My E-commerce Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Our Store</h1>
+            <p>Check out our amazing products below.</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <section class="hero">
+                <h1>Welcome to Our E-Commerce Site!</h1>
+                <p>Find the best deals on our products</p>
+                <button>Shop Now</button>
+              </section>
+              
+              <!-- Featured Products Section -->
+              <section class="featured-products">
+                <h2>Featured Products</h2>
+                <div class="product-container">
+                  <div class="product-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbAL8qE6xnsj_qHv53nodMOzhlVvJcVuztrw&s " 
+                    alt="Product 1"
+                    width="300px" height="300px">
+                    <h3>Product 1</h3>
+                    <p>Price: $19.99</p>
+                    <button>Add to Cart</button>
+                  </div>
+                  <div class="product-card">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAACUCAMAAABC4vDmAAABGlBMVEX///8AAAC6urr///3aHen///vz0/fmI+mlEPTgIen9+PydAPPkF+brZO3Bd/Xp0fjZCOjmfuyyFPHt0vPGGu+1APDKAOx5AP3BAO/s3/vdo/XAGPDaufV+APmQCveuE/PPHe30AOTkpfP47Pn1kez2mO6bXPyufvfOnveqd/yJNPvAmfq1hvjWrvjZtfaja/zv5PjFhPbIfPG3RPPdUuvwJef6I+XqVuRYWFggICApKSnVvvXbxfbCoPS3jO6oc+6USvKJNu7Gr/inavB3AOuXMPKkUPOfRve0Ye2oMuznw+/MkvewVeu4K+3FXO3wvPLrre7cOerkb/DwQ+D6xvHvdefvoen1hOjwZuT30upra2s4ODjS0tJJSUldiIvuAAAH7ElEQVR4nO2bDVviOhbHs3uMi0UtwmU6dSidGl8QK/aqLeMIOirq3XkTpqIw3vn+X2NP0vKiFi/jTlr3bv/Poy1JIT/+OT1JIBCSKlWqVKlSpfrfElAKCqXhKT7gBVQUQ3AFnoV1wQEIHQjkIAGUjnd2Nk/F+eFmgzd5ajOAxuaWaBOA2U3kY/aRAgT040MKbDPQBpUDxT5oQi0daAOPNULwsElZVdMOBRQ507RTopxo2iV6uq5pjG5ooUpSmOiOZmgnHGxdAVvTjJYCCLVOHISqcSM4h7FFlJbG2fh70DlUawedOlZkQBGHN0Vpw9C0BtgGEu5ww3YQygh94OZsgYJXGIaqhFCtTXkhRU817YRhwzuaZnMo3iVqAKU9gDKw9gTWQ6eqG7Ztl+TE1BHvNzwea9oZhzqpakbtsVNNDlU90Qx7ACVkSIGCLR4/IKA2KULZW5pRNh47RRDqXDWEXRzKqKJRdk2OUxg/VZ0Sfq81BRStisAKoICnqiFU1Tnl7gQxdRbkNBlMQPC976jqMR4c7D7DhkKLFwF2n3HW3NqqKcq6YYRQ9IxbhVCG8aF2eFg6lNN9tIbNlMv474gShNogFDvQ4HnKCHSKUKFTOmVY0HJ49wXalgGF91/jhN9z503sC/1DtYGdctY6UQk9aolmWw04bVV1TKHGBiZ0vNqmdDtkatXkQOEoojcaOsOBDU8ZH9sUh2Hz4OhcDvaQw7BS0XGUIZTpGGhUDyUn0FP9TYWTKkVvqI4i5ldyRrmfFTs8C2+x8mKDSUqTPyUKzUuevgIZxuU2Tfw+g8NzI8QZoF2qJFmvaDMkuji27cWBZZIG32mZNgJvthWxSqCscikKmglaRZvCme3RTBdYRTgnaUr318IVjbDJGQegVD3npWpCUFTJYusf2MOwdjjVZUL3IN3ilrBHjVNd9GkyYSUcKUU4AjyuLlgCSAA1DOiLyE5i/B5sJNCBQC/K2XLkJBcwe2XLiwkMgkDL2WwWot1wsO48gTEQeMN/THAD/p3NlpUEoD4i1NGEUY6eIZQTMxFvt4RQk1YoYCNUIVaeQKVspvwkVBJJHaEmOkUQKpsAFDwJ9TtWxgIFfN2nhipQAUUdNUIOCChaGBTo0ibJoFTy2YEuA6fop2yEPoVQF8MSsyInQQAmn8xA2c8CqgafRmWjykrQffTzWNkekTHqwCK2P3zre0OoKKdCqL1hCT5zUYJXVOVveG8xVCWAIqXFCJWC7oPKoGCP+1mQALWM7ezyD79CBU5FigqoAhleTHczPADlQI0tnp5MCSHU6LGKjyuSnBpLPVDKmJlJnznB7xkzq48gZEJlxvPhU1AEoTLqGFQBn1z55UwIxdt5PpQZB5TovonftyQERWv4eDlyHo6r5V3TzDRGM0BQ8WIpMXUfytkzTTOvRjUE0MA6c88Z3qsSofIjKKBfTdFw5EKKcWAz88e4U3n5TgE18ygz34i4FBp5UVkcfsYgnFqWAWWOQxEBlS9GQwWV5j0oUwpUMV8cc+pzkTf7Jbr7vnAq8+vwLoBCJi8HyhyHAvWLWSwWa9GBvo1VxS8qjAW6FCi4B4UNF3a/7n6MXvfhaI2VBbgX6EX5UIR/FPTEwhz41+2jR6opyanimwdQ5Kl59706UItvXkuAIo+gfkICauWX4gRKoaZ93RRq2tddef3m9d8LqiAHii6//u3ZUKSAT17+lTiBUqhp9d9DyYqpZ3+MmUJNKzlQQFdevX31/JjCJ/+/QMFLhHqRTqVQU+oFQz0/T6VQU0p/Kw/q2a+7IgWKkKtXM2877dlnqd3Jvc1dSVi2s/3cTC438yzx5+0zCct2mH0a6cnKzlz3469H4qPfVSf3QOPt7nfuezOu/aWlWUkbAkC5Wbqvzggrt7QwhtR5cGFb2h6TR99WKWwhN4L6NmJaYI+ujXGfnrI/pOrMDZn2lUS3VdKV3Nwj5Vbi9CUCqh0BNddOdEsl0NUIptxqYtsExd/H+QiouRkpOemvgIAqDOW0OzPD8B5pbqbTdng9m7C9ShLVt/lA/4rWXFj9Tc5vnaKZZifRPND8bIxQ+vyU0uODItDuLkyjmHODMpUS3gOeaoLEz8HGvqUaPAgmBPcviw2JMCX4cePwt7YQwDFGgtPgF7Xx7Yql176F6jmE9H33Gtvtu+41Vjg9Xu7zEiYuserXMVFBwbUs13Lnu4SsWVYXfcPDAjLxwnnXtdqE3FiuO49/VlyZaslyb4hSd3HNtIpQlMCa5dYJdV3Xb1/1kKSPmF6dXfuutRoT1K3l+qvXzMGeWbXcXt/Rb7GjSB+NuQZgSHLDoRbElUvx9B/oruthD3ZnuVPoi8X/1XmP+TgPpkjSRSjXv1rD8pu4gqqPAe15ltdHKH5EWXW4wR7jswKE6nGnkNaz/Ng28OMActVDkFtAqPpNu40P6qRteT6uYmjX827Jmud69V7vJjamfr3uEHrreT3uVBezEQ9rwtCcKwqOx28/hOoFuwpjgsJbrt4v1D2M51XP4ykBDz4h6Jd3u+rjOUMoRI5TfR5IPEsqGEfYhyJPdUXCxArX8jBjtjG5xgpF+l0ftcZwVOnyvD44KGu+7/pdfgo934l1gs7X4IrYNjKIGQg3bOB/JSiKMZpSpUqVKlWqVKlSPdI/X6DIP16ghlDvkqR4oBDq+92fd9/vvr/78e7dQbwA7w9Q738cHPy4O7h7HzT+H1fiQdV3J3dnAAAAAElFTkSuQmCC "
+                     alt="Product 2"
+                     width="300px" height="300px">
+                    <h3>Product 2</h3>
+                    <p>Price: $29.99</p>
+                    <button>Add to Cart</button>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-commerce Store. All rights reserved.</p>
+        </div>
+    </footer>
+    <h1>Contact</h1>
+		<label for="user password">UserName:</label><hr>
+		<input id="user password" type="password"><br><hr>
+		<label for="email">Email:</label><hr>
+		<input type="text"id="email"placeholder="email" required="true"><br><hr>
+		<label for="user password">Number:</label><hr>
+		<input id="user password" type="password"><br><hr>
+
+    <script src="script.js"></script>
+</body>
+</html>
